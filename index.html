@@ -24,121 +24,139 @@
             <p><b>Show me dogs that are</b>
             </p><br>
             <div class="flex">
-                <form>
+                <form class="gender">
                     <p><b>Gender</b></p>
-                    <input type="radio" name="gender" value="male">Male<br>
-                    <input type="radio" name="gender" value="female">Female<br>
-                    <input type="radio" name="gender" value="gender_all" checked>All<br>
+                    <input type="radio" name="gender" value="male"> Male<br>
+                    <input type="radio" name="gender" value="female"> Female<br>
+                    <input type="radio" name="gender" value="gender_all" checked> All<br>
                 </form>
-                <form>
+                <form class="age">
                     <p><b>Age</b></p>
-                    <input type="radio" name="age" value="puppy">Puppy<br>
-                    <input type="radio" name="age" value="young">Young<br>
-                    <input type="radio" name="age" value="adult">Adult<br>
-                    <input type="radio" name="age" value="senior">Senior<br>
-                    <input type="radio" name="age" value="age_all" checked>All<br>
+                    <input type="radio" name="age" value="puppy"> Puppy<br>
+                    <input type="radio" name="age" value="young"> Young<br>
+                    <input type="radio" name="age" value="adult"> Adult<br>
+                    <input type="radio" name="age" value="senior"> Senior<br>
+                    <input type="radio" name="age" value="age_all" checked> All<br>
                 </form>
-                <form>
+                <form class="size">
                     <p><b>Size</b></p>
-                    <input type="checkbox" name="age" value="tiny">Tiny<br>
-                    <input type="checkbox" name="age" value="small">Small<br>
-                    <input type="checkbox" name="age" value="medium">Medium<br>
-                    <input type="checkbox" name="age" value="large">Large<br>
+                    <input type="checkbox" name="size" value="tiny"> Tiny<br>
+                    <input type="checkbox" name="size" value="small"> Small<br>
+                    <input type="checkbox" name="size" value="medium"> Medium<br>
+                    <input type="checkbox" name="size" value="large"> Large<br>
                 </form>
-                <form>
-                    <p><b>Size</b></p>
-                    <input type="checkbox" name="personality" value="easygoing">Easygoing<br>
-                    <input type="checkbox" name="personality" value="energetic">Energetic<br>
-                    <input type="checkbox" name="personality" value="good_with_kids">Good with kids<br>
-                    <input type="checkbox" name="personality" value="good_with_other_dogs">Good with other dogs<br>
-                    <input type="checkbox" name="personality" value="good_with_cats">Good with cats<br>
+                <form class="personality">
+                    <p><b>Personality Traits</b></p>
+                    <input type="checkbox" name="personality" value="easygoing"> Easygoing<br>
+                    <input type="checkbox" name="personality" value="energetic"> Energetic<br>
+                    <input type="checkbox" name="personality" value="good_with_kids"> Good with kids<br>
+                    <input type="checkbox" name="personality" value="good_with_other_dogs"> Good with other dogs<br>
+                    <input type="checkbox" name="personality" value="good_with_cats"> Good with cats<br>
                 </form>
             </div>
         </div>
         <div class="pics">
-            <img src="starter_files/images/beans.jpg">Beans
-            <ul>
-                <li>Adult</li>
-                <li>Male</li>
-                <li>Medium</li>
-                <li>Easygoing</li>
-                <li>Good with cats</li>
-            </ul>
-            <img src="starter_files/images/boston-terrier.jpg">Zelda
-            <ul>
-                <li>Senior</li>
-                <li>Female</li>
-                <li>Small</li>
-                <li>Easygoing</li>
-                <li>Good with kids</li>
-                <li>Good with other dogs</li>
-            </ul>
-            <img src="starter_files/images/boxer.jpg">Baby
-            <ul>
-                <li>Young</li>
-                <li>Female</li>
-                <li>Large</li>
-                <li>Energetic</li>
-                <li>Good with kids</li>
-                <li>Good with other dogs</li>
-            </ul>
-            <img src="starter_files/images/golden-lab.jpg">Tom-Tom
-            <ul>
-                <li>Young</li>
-                <li>Male</li>
-                <li>Large</li>
-                <li>Energetic</li>
-                <li>Good with kids</li>
-                <li>Good with other dogs</li>
-                <li>Good with cats</li>
-            </ul>
-            <img src="starter_files/images/little-dog.jpg">Marco
-            <ul>
-                <li>Young</li>
-                <li>Male</li>
-                <li>Small</li>
-                <li>Energetic</li>
-            </ul>
-            <img src="starter_files/images/old-shaggy.jpg">Shackleton
-            <ul>
-                <li>Young</li>
-                <li>Male</li>
-                <li>Medium</li>
-                <li>Easygoing</li>
-                <li>Energetic</li>
-                <li>Good with kids</li>
-                <li>Good with other dogs</li>
-                <li>Good with cats</li>
-            </ul>
-            <img src="starter_files/images/shih-tzu.jpg">Midge
-            <ul>
-                <li>Young</li>
-                <li>Female</li>
-                <li>Small</li>
-                <li>Easygoing</li>
-                <li>Good with kids</li>
-            </ul>
-            <img src="starter_files/images/young-bulldog.jpg">Ladybird
-            <ul>
-                <li>Young</li>
-                <li>Female</li>
-                <li>Large</li>
-                <li>Easygoing</li>
-                <li>Energetic</li>
-                <li>Good with kids</li>
-                <li>Good with other dogs</li>
-                <li>Good with cats</li>
-            </ul>
-            <img src="starter_files/images/young-peppy.jpg">Mina
-            <ul>
-                <li>Puppy</li>
-                <li>Female</li>
-                <li>Medium</li>
-                <li>Energetic</li>
-                <li>Good with kids</li>
-                <li>Good with other dogs</li>
-                <li>Good with cats</li>
-            </ul>
+            <div class="third">
+                <img src="starter_files/images/beans.jpg"><br>Beans
+                <ul>
+                    <li class="desc">Adult</li>
+                    <li class="desc">Male</li>
+                    <li class="desc">Medium</li>
+                    <li class="desc">Easygoing</li>
+                    <li class="desc">Good with cats</li>
+                </ul>
+            </div>
+            <div class="third">
+                <img src="starter_files/images/boston-terrier.jpg"><br>Zelda
+                <ul>
+                    <li class="desc">Senior</li>
+                    <li class="desc">Female</li>
+                    <li class="desc">Small</li>
+                    <li class="desc">Easygoing</li>
+                    <li class="desc">Good with kids</li>
+                    <li class="desc">Good with other dogs</li>
+                </ul>
+            </div>
+            <div class="third">
+                <img src="starter_files/images/boxer.jpg"><br>Baby
+                <ul>
+                    <li class="desc">Young</li>
+                    <li class="desc">Female</li>
+                    <li class="desc">Large</li>
+                    <li class="desc">Energetic</li>
+                    <li class="desc">Good with kids</li>
+                    <li class="desc">Good with other dogs</li>
+                </ul>
+            </div>
+            <div class="third">
+                <img src="starter_files/images/golden-lab.jpg"><br>Tom-Tom
+                <ul>
+                    <li class="desc">Young</li>
+                    <li class="desc">Male</li>
+                    <li class="desc">Large</li>
+                    <li class="desc">Energetic</li>
+                    <li class="desc">Good with kids</li>
+                    <li class="desc">Good with other dogs</li>
+                    <li class="desc">Good with cats</li>
+                </ul>
+            </div>
+            <div class="third">
+                <img src="starter_files/images/little-dog.jpg"><br>Marco
+                <ul>
+                    <li class="desc">Young</li>
+                    <li class="desc">Male</li>
+                    <li class="desc">Small</li>
+                    <li class="desc">Energetic</li>
+                </ul>
+            </div>
+            <div class="third">
+                <img src="starter_files/images/old-shaggy.jpg"><br>Shackleton
+                <ul>
+                    <li class="desc">Young</li>
+                    <li class="desc">Male</li>
+                    <li class="desc">Medium</li>
+                    <li class="desc">Easygoing</li>
+                    <li class="desc">Energetic</li>
+                    <li class="desc">Good with kids</li>
+                    <li class="desc">Good with other dogs</li>
+                    <li class="desc">Good with cats</li>
+                </ul>
+            </div>
+            <div class="third">
+                <img src="starter_files/images/shih-tzu.jpg"><br>Midge
+                <ul>
+                    <li class="desc">Young</li>
+                    <li class="desc">Female</li>
+                    <li class="desc">Small</li>
+                    <li class="desc">Easygoing</li>
+                    <li class="desc">Good with kids</li>
+                </ul>
+            </div>
+            <div class="third">
+                <img src="starter_files/images/young-bulldog.jpg"><br>Ladybird
+                <ul>
+                    <li class="desc">Young</li>
+                    <li class="desc">Female</li>
+                    <li class="desc">Large</li>
+                    <li class="desc">Easygoing</li>
+                    <li class="desc">Energetic</li>
+                    <li class="desc">Good with kids</li>
+                    <li class="desc">Good with other dogs</li>
+                    <li class="desc">Good with cats</li>
+                </ul>
+            </div>
+            <div class="third">
+                <img src="starter_files/images/young-peppy.jpg"><br>Mina
+                <ul>
+                    <li class="desc">Puppy</li>
+                    <li class="desc">Female</li>
+                    <li class="desc">Medium</li>
+                    <li class="desc">Energetic</li>
+                    <li class="desc">Good with kids</li>
+                    <li class="desc">Good with other dogs</li>
+                    <li class="desc">Good with cats</li>
+                </ul>
+            </div>
         </div>
     </div>
     <br>

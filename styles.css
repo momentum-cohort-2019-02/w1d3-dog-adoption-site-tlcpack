@@ -42,7 +42,8 @@ img {
     flex-wrap: wrap;
     /* height: 30px;
     width: 10px; */
-    align-content: space-between
+    align-content: space-between;
+    list-style-type: none;
 }
 
 .footflex {
@@ -70,4 +71,32 @@ img {
         url(starter_files/images/volunteer.jpg);
         height: 300px;
         width: 300px;
+}
+
+.gender {
+    width: 9%;
+}
+
+.age {
+    width: 9%;
+}
+
+.size {
+    width: 9%;
+}
+
+.personality {
+    width: 9%;
+}
+
+.desc {
+    background-color: rgb(118,223,243);
+    color: black;
+    font-size: 10px;
+    text-align: center;
+    border-radius: 20px;
+}
+
+.third {
+    width: 33%;
 }
