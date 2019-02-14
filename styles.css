@@ -34,7 +34,8 @@ h1 {
 
 img {
     height: 23rem;
-    width: 95%;
+    width: 100%;
+    padding: 10px;
 }
 
 .pics {
@@ -61,7 +62,7 @@ footer {
         width: 300px;
         text-align: center;
         padding: 150px;
-        opacity: .4;
+        /* opacity: .4; */
         font-size: 30px;
         color: white;
     text-decoration: none;
@@ -126,16 +127,18 @@ li {
 
 .third {
     width: 33%;
-    
 }
 
 ul {
     list-style-type: none;
     display: flex;
-    padding: 5px;
+    padding: 10px;
     flex-wrap: wrap;
 }
 
 .bigger {
     height: 26rem;
+}
+.names {
+    padding: 10px;
 }
